@@ -22,3 +22,5 @@ They help in moving around physics objects in the game.
 - ```GetActorRotation``` gives the geometric orientation (in space) of the pawn or the actor, the parameters (pitch,yaw and roll).
   - **NOTE-** The function ```GetPlayerViewpoint``` returns the camera angle of our viewpoint (in space) not the geometrical orientation.
 
+#### ```UPrimitiveComponent```
+Primitive Components basically help in dealing wiht rendering obbjects and collisions. They give us knowledge about how the "hits" are being dealt with and stuff like that. It has various sub-classes such as "SphereComponent", "CapsuleComponent", "BoxComponent" etc. which as per my understanding are the collision boxes we deal with when we "Edit" our Actors in the UnrealEngine Editor.These "Components" above help us in detecting collisions.
